@@ -5,8 +5,8 @@ This is a simple and lightweight jQuery script to convert a simple chain of unor
 
 Basic usage:
 
-$('#smartMenu').smartMenu({
-	'display' : 'vertical', // vertical, horizontal
-	'theme'	  : 'default' // you can choose the default theme or create your own
-});	
+	$('#smartMenu').smartMenu({
+		'display' : 'vertical', // vertical, horizontal
+		'theme'	  : 'default' // you can choose the default theme or create your own
+	});	
 
