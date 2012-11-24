@@ -1,7 +1,9 @@
-jQuery smartMenu v1.0
-=====================
+jQuery smartMenu
+================
 
-This is a simple and lightweight jQuery script to convert a simple chain of unordered lists into a multi-level navigation menu.
+Version: 1.0
+
+Description: This is a simple and lightweight jQuery script to convert a simple chain of unordered lists into a multi-level navigation menu.
 
 Basic usage:
 
