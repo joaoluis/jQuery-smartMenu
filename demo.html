@@ -1,0 +1,138 @@
+<!DOCTYPE html5>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>jQuery smartMenu v1.0</title>
+		<script src="js/jquery-1.8.3.min.js"></script>
+		<script src="js/jquery.smartMenu.js"></script>
+		<link href="css/jquery.smartMenu.css" rel="stylesheet" type="text/css" />
+		<link href="css/jquery.smartMenu.themes.css" rel="stylesheet" type="text/css" />
+		<link href='http://fonts.googleapis.com/css?family=Paprika' rel='stylesheet' type='text/css'>
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
+		<script>
+			$(window).load(function(){
+				$('#vertical-smartMenu').smartMenu({
+		  			'display' : 'vertical', // vertical, horizontal
+		  			'theme'	  : 'default' // choose your theme from the themes folder
+				});	
+				$('#horizontal-smartMenu').smartMenu({
+		  			'display' : 'horizontal', 
+		  			'theme'	  : 'default' 
+				});	
+			});
+		</script>
+	</head>
+	<body>
+		<div class="center">
+			<h1>jQuery smartMenu v1.0</h1>
+		</div>
+		<div id="container">
+
+			<ul id="horizontal-smartMenu">
+		    	<li><a href="#">No sub-menu</a></li>
+		        <li>
+		        	<a href="#">One Level</a>
+		            <ul>
+		               	<li><a href="#">One Level Item 1</a></li>
+		               	<li><a href="#">One Level Item 2</a></li>
+		               	<li><a href="#">One Level Item 3</a></li>
+		            </ul>
+		      	</li>
+		      	<li>
+		        	<a href="#">Three Levels</a>
+		        	<ul>
+		               	<li>
+		               		<a href="#">Item 1</a>
+		               		<ul>
+		               			<li><a href="#">Item 1</a></li>
+		               			<li>
+		               				<a href="#">Item 2</a>
+		               				<ul>
+		               					<li><a href="#">Three Level Item 1</a></li>
+		               					<li><a href="#">Three Level Item 2</a></li>
+		               					<li><a href="#">Three Level Item 3</a></li>
+		            				</ul>
+		               			</li>
+		               			<li><a href="#">Item 3</a></li>
+		            		</ul>
+		               	</li>
+		               	<li><a href="#">Item 2</a></li>
+		               	<li><a href="#">Item 3</a></li>
+		            </ul>
+		        </li>
+		        <li>
+		        	<a href="#">Two Levels</a>
+		        	<ul>
+		               	<li><a href="#">Item 1</a></li>
+		               	<li><a href="#">Item 2</a></li>
+		               	<li>
+		                	<a href="#">Item 3</a>
+		                    <ul>
+		               			<li><a href="#">Two Level Item 1</a></li>
+		               			<li><a href="#">Two Level Item 2</a></li>
+		               			<li><a href="#">Two Level Item 3</a></li>
+		            		</ul>
+		                </li>
+		            </ul>
+		        </li>
+		        <li>
+		        	<a href="#">One Level</a>
+		            <ul>
+		               	<li><a href="#">One Level Item 1</a></li>
+		               	<li><a href="#">One Level Item 2</a></li>
+		               	<li><a href="#">One Level Item 3</a></li>
+		            </ul>
+		      	</li>
+			</ul>
+
+			<ul id="vertical-smartMenu">
+		    	<li><a href="#">No sub-menu</a></li>
+		        <li>
+		        	<a href="#">One Level</a>
+		            <ul>
+		               	<li><a href="#">One Level Item 1</a></li>
+		               	<li><a href="#">One Level Item 2</a></li>
+		               	<li><a href="#">One Level Item 3</a></li>
+		            </ul>
+		      	</li>
+		        <li>
+		        	<a href="#">Two Levels</a>
+		        	<ul>
+		               	<li><a href="#">Item 1</a></li>
+		               	<li><a href="#">Item 2</a></li>
+		               	<li>
+		                	<a href="#">Item 3</a>
+		                    <ul>
+		               			<li><a href="#">Two Level Item 1</a></li>
+		               			<li><a href="#">Two Level Item 2</a></li>
+		               			<li><a href="#">Two Level Item 3</a></li>
+		            		</ul>
+		                </li>
+		            </ul>
+		        </li>
+		        <li>
+		        	<a href="#">Three Levels</a>
+		        	<ul>
+		               	<li>
+		               		<a href="#">Item 1</a>
+		               		<ul>
+		               			<li><a href="#">Item 1</a></li>
+		               			<li>
+		               				<a href="#">Item 2</a>
+		               				<ul>
+		               					<li><a href="#">Three Level Item 1</a></li>
+		               					<li><a href="#">Three Level Item 2</a></li>
+		               					<li><a href="#">Three Level Item 3</a></li>
+		            				</ul>
+		               			</li>
+		               			<li><a href="#">Item 3</a></li>
+		            		</ul>
+		               	</li>
+		               	<li><a href="#">Item 2</a></li>
+		               	<li><a href="#">Item 3</a></li>
+		            </ul>
+		        </li>
+			</ul>
+		</div>
+	</body>
+</html>

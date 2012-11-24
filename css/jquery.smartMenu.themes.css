@@ -1,0 +1,20 @@
+/*
+ * Default Theme
+*/
+
+.smartMenu.default li a { 
+	padding: 5px;
+	width: 130px; 
+	background-color: #aaa;
+	color: #000; 
+	text-decoration: none; 
+}
+.smartMenu.default li a:hover { 
+	color: red; 
+}
+.smartMenu.default li { 
+	width: 140px; 
+}
+.smartMenu.default .active { 
+	color: red; 
+}
